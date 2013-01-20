@@ -36,10 +36,6 @@ LUNITTESTS=				\
 
 ROCKSPEC = $(PACKAGE)-$(VERSION)-1.rockspec
 
-dist_doc_DATA = 			\
-	$(HTML)				\
-	docs/index.html			\
-	docs/ldoc.css
 examplesdir = $(docdir)/examples
 examples_DATA = $(wildcard examples/*.lua)
 
